@@ -1,0 +1,23 @@
+[project]
+name = "pubmed-paper-finder"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "gfkkfg",email = "gfkkfg6161@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "biopython (>=1.85,<2.0)"
+]
+
+[tool.poetry]
+packages = [{include = "pubmed_paper_finder", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+get-papers-list = "pubmed_paper_finder.cli:main"
