@@ -59,7 +59,7 @@ poetry run get-papers-list --query "diabetes therapy" --file diabetes.csv
 - Poetry - Dependency management
 - argparse - Command-line interface
 
-Author:
-Built by Thangaraj M
-Linkedin: https://www.linkedin.com/in/thangarajsankar
-Portfolio: https://thangaraj.onrender.com
+### Author:
+- Built by Thangaraj M
+- Linkedin: https://www.linkedin.com/in/thangarajsankar
+- Portfolio: https://thangaraj.onrender.com
